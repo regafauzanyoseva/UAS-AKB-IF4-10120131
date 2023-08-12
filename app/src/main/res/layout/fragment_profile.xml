@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context=".ProfileFragment">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="400dp"
+        android:background="@drawable/background"></ImageView>
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="660dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_height="310dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-12dp"
+            android:src="@drawable/rega1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Rega Fauzan Yoseva"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10120131"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IF-4"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rega.10120131@mahasiswa.unikom.ac.id"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

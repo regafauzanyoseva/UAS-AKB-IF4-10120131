@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Deskripsi \n\nAplikasi sederhana menampilkan \ndaftar catatan harian untuk memenuhi \nPrasyarat Ujian Akhir Semester \nAplikasi Komputasi Bergerak \nTahun Ajaran \n2023/2024"
+        android:textColor="#4a4a4a"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</FrameLayout>

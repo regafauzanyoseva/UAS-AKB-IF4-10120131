@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TesterUas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="webclientid">877413420899-dl9ash2je7rgmffedgeng95bovj2vkjg.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context=".ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="660dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="PERHATIAN"
+            android:textAlignment="center"
+            android:textColor="#4a4a4a"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DESKRIPSI \n\n JIKA ANDA INGIN MENAMBAHKAN DATA \n SILAHKAN KLIK TANDA +"
+            android:textColor="#4a4a4a"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    </LinearLayout>
+</RelativeLayout>
